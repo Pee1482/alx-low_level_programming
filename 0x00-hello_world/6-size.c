@@ -2,14 +2,14 @@
 /**
  * main - A program that print the size of the veriours computer types
  * Return 0 (success)
- */
-int main(void)
+ */int main(void)
 {
 	char a;
 	int b;
 	long int c;
 	long long int d;
 	float f;
+
 
 prinf("Size of a char:%lu byte(s)\n", (unsigned long)sizeof(a));
 prinf("Size of an int:%lu byte(s)\n", (unsigned long)sizeof(b));
