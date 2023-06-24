@@ -4,6 +4,7 @@
  * main: Entry point
  *
  * Description: print alphabet in lowercase then in uppercase
+ *		prints the alphabet
  *
  * Return: Always 0 (success)
  */
@@ -19,6 +20,7 @@ int main(void)
 		ch++;
 	}
 	/*prints A-Z*/
+	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
