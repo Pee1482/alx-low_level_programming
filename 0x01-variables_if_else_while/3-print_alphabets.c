@@ -15,12 +15,12 @@ int main(void)
 	/*prints a-z*/
 	while (ch <= 'z')
 	{
-		puutchar(ch);
+		putchar(ch);
 		ch++;
 	}
 	/*prints A-Z*/
 	{
-		Putchar(CH);
+		putchar(CH);
 		CH++;
 	}
 	putchar('\n');
